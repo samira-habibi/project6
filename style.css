@@ -324,3 +324,101 @@ border-radius: 3px;
 }
 
 /* end services */
+
+/* contact */
+.info-box{
+    background-color:lightgray;
+    padding: 30px;
+}
+.info-box i{
+    font-size: 38px;
+    line-height: 0%;
+    color: black;
+    
+}
+
+.content-form{
+    background-color: lightgray;
+    padding: 30px;
+    height: 100%;
+}
+#dark{
+  color: black;
+}
+
+
+.ww{
+  color: white;
+}
+#wow{
+  background-color: white;
+}
+#wow:hover{
+  background-color: black;
+  color: white;
+}
+.bron{
+  color: black;
+}
+
+
+
+
+
+
+
+ /* footer */
+
+ .link i{
+    font-size: 23px;
+    color:  white;
+    border-radius: 100%;
+   
+    background-color: black;
+    padding: 10px;
+
+}
+.link i:hover{
+background-color: white;
+color: black;
+}
+
+.footer {
+    color: white;
+    
+}
+.food{
+  background-color:gray;
+}
+
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: white;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+   
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+   
+}
+
+
+.footer .btn.btn-link:hover {
+    color: var(--light);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+
+

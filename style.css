@@ -222,3 +222,105 @@
     color: #666666;
 }
 
+
+
+/* services */
+.services-box{
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.services i{
+    font-size: 36px;
+    padding: 30px;
+    line-height: 0%;
+    display: inline-block;
+    border-radius: 4px;
+   
+    
+}
+.read-more {
+  text-decoration: none;
+  color: white;
+  
+}
+#kjk{
+  background-color: gray;
+}
+.asma{
+background-color: gray;
+padding: 6px;
+border-radius: 3px;
+
+}
+.neha{
+  background-color:black;
+  padding: 6px;
+border-radius: 3px;
+}
+
+.read-more i{
+    font-size: 20px;
+    line-height: 0%;
+    padding: 0;
+    margin: 10px;
+}
+.read-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+
+}
+/* services-box three */
+.dark{
+    border-bottom: 3px solid black;
+}
+
+.dark:hover{
+    background-color: lightgray ;
+    color: white;
+}
+
+.services-box:hover .read-more{
+    color: white;
+}
+
+/* services-box tow */
+
+ .light{
+    border-bottom: 3px solid black;
+}
+
+.light:hover{
+    background-color:lightgray ;
+    color: white;
+}
+
+.services-box:hover .read-more{
+    color: white;
+}
+
+
+/* services-box one */
+
+.gray{
+    border-bottom: 5px solid black ;
+}
+
+.gray:hover{
+    background-color:lightgray ;
+    color: white;
+}
+
+.services-box:hover .read-more{
+    color: white;
+}
+.font{
+  color: black;
+}
+
+/* end services */
